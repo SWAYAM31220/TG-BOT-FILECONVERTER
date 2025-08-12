@@ -1,0 +1,28 @@
+{
+  "name": "telegram-media-converter-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for media conversion with credits system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "media",
+    "converter"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "firebase-admin": "^11.11.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-schedule": "^2.1.1",
+    "telegraf": "^4.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
