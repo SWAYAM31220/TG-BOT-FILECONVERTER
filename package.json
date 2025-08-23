@@ -2,7 +2,7 @@
   "name": "telegram-media-converter-bot",
   "version": "1.0.0",
   "description": "Telegram bot for media conversion with credits system",
-  "main": "index.js",
+  "main": "index.js"
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
@@ -25,4 +25,5 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
+
 }
